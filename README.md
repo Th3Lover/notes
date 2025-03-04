@@ -1,6 +1,6 @@
 <p align="center"><img src="public/assets/images/logo.png" width="200" alt="Laravel Logo"></a></p>
 
-## Sobre o projeto \ About the project 
+## Sobre o Projeto \ About the Project 
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
