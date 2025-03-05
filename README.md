@@ -56,6 +56,7 @@ php artisan db:seed
 ```
 php artisan serve
 ```
+O projeto estará disponivel no "localhost:8000" ou "127.0.0.1:8000"
 
 ### Premium Partners
 
