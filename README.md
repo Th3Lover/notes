@@ -4,7 +4,7 @@
 
 O projeto foi feito interamente usando o framework Laravel, com as suas funções não foi feito uma tela de cadastro sendo feito usando as Migrations e Seeders.
 
-## Versão dos sistemas utilizados
+## Versão dos Sistemas Utilizados
 
 1. PHP: 8.4.3
 
@@ -14,9 +14,15 @@ O projeto foi feito interamente usando o framework Laravel, com as suas funçõe
 
 4. Laragon: 7.0.6
 
-## Laravel Sponsors
+## Instalação do Projeto
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Para poder fazer a instalação siga os passos abaixo: 
+
+1. Primeiramente, verifica-se a versão dos seus sistemas estão como as mencionadas acima.
+
+'''
+git clone https://github.com/Th3Lover/notes
+'''
 
 ### Premium Partners
 
