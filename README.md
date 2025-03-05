@@ -20,8 +20,41 @@ Para poder fazer a instalação siga os passos abaixo:
 
 1. Primeiramente, verifica-se a versão dos seus sistemas estão como as mencionadas acima.
 
+2. Clone este repositório:
 ```
 git clone https://github.com/Th3Lover/notes
+```
+
+3. Acesse a pasta do projeto:
+```
+cd local-do-clone-do-projeto
+```
+
+4. Instale as depdendências do PHP:
+```
+composer install
+```
+
+5. Configura o arquivo .env e em seguida, configure as credenciais do banco de dados no arquivo .env
+
+6. Gere a chave da aplicação:
+```
+php artisan key:generate
+```
+
+7. Execute as migrações do banco de dados:
+```
+php artisan migrate
+```
+
+8. Popule o banco com os dados seeders:
+```
+php artisan db:seed
+```
+
+9. Inicie o servidor e use o site:
+```
+php artisan serve
 ```
 
 ### Premium Partners
