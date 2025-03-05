@@ -94,6 +94,6 @@ Este projeto está licenciado sob a [MIT license](https://opensource.org/license
 
 ## Autor
 
-**Nome**: Leonardo Fernandes
-**Instagram**: leonaardofer
+**Nome**: Leonardo Fernandes<br>
+**Instagram**: leonaardofer<br>
 **LinkedIn**: https://www.linkedin.com/in/leonardo-fernande/
