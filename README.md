@@ -58,34 +58,40 @@ php artisan serve
 ```
 O projeto estará disponivel no "localhost:8000" ou "127.0.0.1:8000"
 
-### Premium Partners
+### Organização do banco
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Vou usar este tópico para mostrar como esta organizado o banco de dados.
 
-## Contributing
+Teremos duas tabelas uma para usuários e outra para as notas
+
+1. Tabela Users
+```
+Schema::create('users', function (Blueprint $table) {
+            $table->id()->autoIncrement();
+            $table->string('username', 50)->nullable();
+            $table->string('password', 200)->nullable();
+            $table->dateTime('last_login')->nullable();
+            $table->timestamps();
+            $table->softDeletes();
+        });
+```
+
+2. Tabela Notes
+```
+Schema::create('notes', function (Blueprint $table) {
+            $table->id()->autoIncrement();
+            $table->integer('user_id')->nullable();
+            $table->string('title', 200)->nullable();
+            $table->string('text', 3000)->nullable();
+            $table->timestamps();
+            $table->softDeletes();  
+        });
+```
+
+### Licença
+
+Este projeto está licenciado sob a [MIT license](https://opensource.org/licenses/MIT).
+
+## Autor
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
