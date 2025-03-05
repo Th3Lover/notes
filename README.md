@@ -58,7 +58,7 @@ php artisan serve
 ```
 O projeto estará disponivel no "localhost:8000" ou "127.0.0.1:8000"
 
-### Organização do banco
+## Organização do banco
 
 Vou usar este tópico para mostrar como esta organizado o banco de dados.
 
@@ -88,7 +88,7 @@ Schema::create('notes', function (Blueprint $table) {
         });
 ```
 
-### Licença
+## Licença
 
 Este projeto está licenciado sob a [MIT license](https://opensource.org/licenses/MIT).
 
