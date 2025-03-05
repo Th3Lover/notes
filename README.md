@@ -2,7 +2,7 @@
 
 ## Objetivo do Projeto
 
-O projeto foi feito interamente usando o framework Laravel, com as suas funções não foi feito uma tela de cadastro sendo feito usando as Migrations e Seeders
+O projeto foi feito interamente usando o framework Laravel, com as suas funções não foi feito uma tela de cadastro sendo feito usando as **Migrations e Seeders**
 
 ## Versão dos sistemas utilizados
 
