@@ -4,13 +4,15 @@
 
 O projeto feito em laravel é um site para poder fazer anotações simples de forma organizada e de facil acesso.
 
-## Versão dos sistemas
+## Versão dos sistemas utilizados
 
 1. PHP: 8.4.3
 
 2. Composer: 2.8.5
 
 3. HeidiSQL: 12.10.0.7000
+
+4. Laragon: 7.0.6
 
 ## Laravel Sponsors
 
