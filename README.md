@@ -94,4 +94,6 @@ Este projeto está licenciado sob a [MIT license](https://opensource.org/license
 
 ## Autor
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+**Nome**: Leonardo Fernandes
+**Instagram**: leonaardofer
+**LinkedIn**: https://www.linkedin.com/in/leonardo-fernande/
