@@ -20,9 +20,9 @@ Para poder fazer a instalação siga os passos abaixo:
 
 1. Primeiramente, verifica-se a versão dos seus sistemas estão como as mencionadas acima.
 
-'''
+...
 git clone https://github.com/Th3Lover/notes
-'''
+...
 
 ### Premium Partners
 
