@@ -1,26 +1,16 @@
 <p align="center"><img src="public/assets/images/logo.png" width="200" alt="Laravel Logo"></a></p>
 
-## Sobre o Projeto \ About the Project 
+## Objetivo do Projeto
 
-O projeto consiste em um site notas para a 
+O projeto feito em laravel é um site para poder fazer anotações simples de forma organizada e de facil acesso.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Versão dos sistemas
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+1. PHP: 8.4.3
 
-## Learning Laravel
+2. Composer: 2.8.5
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+3. HeidiSQL: 12.10.0.7000
 
 ## Laravel Sponsors
 
