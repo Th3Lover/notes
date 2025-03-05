@@ -2,7 +2,7 @@
 
 ## Objetivo do Projeto
 
-O projeto feito em laravel é um site para poder fazer anotações simples de forma organizada e de facil acesso.
+O projeto foi feito interamente usando o framework Laravel, com as suas funções não foi feito uma tela de cadastro sendo feito usando as Migrations e Seeders
 
 ## Versão dos sistemas utilizados
 
